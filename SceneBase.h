@@ -5,10 +5,10 @@ public:
 	SceneBase(){}
 	virtual ~SceneBase(){}
 
-	void init(){}
-	void update(){}
-	void draw(){}
-	void end(){}
+	virtual	void init(){}
+	virtual	void update(){}
+	virtual	void draw(){}
+	virtual	void end(){}
 private:
 
 };

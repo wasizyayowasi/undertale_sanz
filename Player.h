@@ -26,4 +26,8 @@ private:
 	int m_handle;
 	//Vec2
 	Vec2 m_pos;
+	// ベクトル
+	Vec2 m_vec;
+	// 地面の高さ
+	float m_fieldY;
 };

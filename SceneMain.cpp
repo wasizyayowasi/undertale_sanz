@@ -15,6 +15,7 @@ void SceneMain::end() {
 }
 void SceneMain::update() {
 	m_player.update();
+	m_player.trace();
 }
 void SceneMain::draw() {
 	m_player.draw();
